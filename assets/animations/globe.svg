@@ -1,0 +1,18 @@
+<svg id="globe" width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="circleView">
+      <circle cx="200" cy="200" r="200"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circleView)">
+    <!-- Globe background -->
+    <circle cx="200" cy="200" r="200" fill="#2E8B57"/>
+
+    <!-- Simplified landmasses (example, not accurate) -->
+    <path d="M200 20 Q220 40 240 80 Q260 120 220 160 Q200 180 160 160 Q140 140 160 120 Q180 100 200 20" fill="#32CD32"/>
+    <path d="M150 280 Q170 290 190 310 Q210 330 230 350 Q250 370 270 350 Q290 330 310 310 Q330 290 350 280 Q360 270 340 250 Q320 230 300 210 Q280 190 250 190 Q220 190 200 210 Q180 230 150 280" fill="#32CD32"/>
+
+    <!-- Marker for Kerala (approximate position) -->
+    <circle id="kerala" cx="240" cy="300" r="5" fill="red"/>
+  </g>
+</svg>

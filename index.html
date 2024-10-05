@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="description" content="Explore the vibrant culture, stunning attractions, delicious food, and rich wildlife of Kerala, a gem in southern India, perfect for nature lovers.">
+  <title>Kerala Wonders</title>
+  <link rel="icon" href="assets/images/logo.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1721844628569">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/bootstrap/css/bootstrap.min.css?rnd=1721844628569">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1721844628569">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1721844628569">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/parallax/jarallax.css?rnd=1721844628569">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/dropdown/css/style.css?rnd=1721844628569">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/socicon/css/styles.css?rnd=1721844628569">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/theme/css/style.css?rnd=1721844628569">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/583243/assets/css/mbr-additional.css?rnd=1721844628569" type="text/css">
+  <style>
+    #mute-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    #mute-button img {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+<section data-bs-version="5.1" class="menu menu2 cid-ujt7TFOKNc" once="menu" id="menu-5-ujt7TFOKNc">
+	
+	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+		<div class="container">
+			<div class="navbar-brand">
+				<span class="navbar-logo">
+					<a href="">
+						<img src="assets/images/logo.svg" alt="Kerala logo" style="height: 4.3rem;">
+					</a>
+				</span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="">Kerala</a></span>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="#testimonials-6-ujt7TFQ7JZ">Culture</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="#gallery-12-ujt7TFQuoY" aria-expanded="false">Attractions</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black display-4" href="#clients-1-ujt7TFT7lF">Specialities</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section data-bs-version="5.1" class="header18 cid-ujt7TFPN0C mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=wTUX48bdDEs" id="hero-16-ujt7TFPN0C">  
+  <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-12">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <strong>Kerala Awaits</strong>
+        </h1>
+        
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Dive into the vibrant culture and breathtaking beauty of Kerala!</p>
+        <div class="mbr-section-btn">
+          <a class="btn btn-white-outline display-7" href="#faq-1-ujt7TFQjti">Discover Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Audio Element -->
+  <audio id="background-audio" loop muted>
+    <source src="assets/audio/background music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <!-- Mute Button -->
+  <div id="mute-button">
+    <img id="mute-icon" src="assets/images/mute.png" alt="Mute">
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var audio = document.getElementById('background-audio');
+    var muteButton = document.getElementById('mute-button');
+    var muteIcon = document.getElementById('mute-icon');
+    var isMuted = true;
+
+    // Function to start audio playback and toggle mute/unmute
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play().then(function() {
+          audio.muted = false;
+          muteIcon.src = 'assets/images/volume.png';
+          isMuted = false;
+        }).catch(function(error) {
+          console.log('Audio playback failed:', error);
+        });
+      } else {
+        if (isMuted) {
+          audio.muted = false;
+          muteIcon.src = 'assets/images/volume.png';
+        } else {
+          audio.muted = true;
+          muteIcon.src = 'assets/images/mute.png';
+        }
+        isMuted = !isMuted;
+      }
+    }
+
+    // Add click event to start audio and toggle mute/unmute
+    muteButton.addEventListener('click', toggleAudio);
+  });
+</script>
+
+
+
+<section data-bs-version="5.1" class="list1 cid-ujt7TFQjti" id="faq-1-ujt7TFQjti">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-10 m-auto">
+                <div class="content">
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-12 content-head">
+                            <div class="mbr-section-head">
+                                <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                                    <strong>Curious About Kerala?</strong>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bootstrap-accordion_4" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_4" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What makes Kerala's culture unique?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Kerala's culture is a vibrant tapestry of traditions, art forms, and festivals that celebrate life!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_4" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What are the must-visit attractions?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse2_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">From the serene backwaters to lush hill stations, Kerala is a treasure trove of attractions!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_4" aria-expanded="false" aria-controls="collapse3">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What food should I try?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Indulge in spicy curries, fresh seafood, and mouthwatering sweets that will tantalize your taste buds!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_4" aria-expanded="false" aria-controls="collapse4">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Is wildlife abundant in Kerala?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Absolutely! Kerala is home to diverse wildlife, including elephants, tigers, and exotic birds!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_4" aria-expanded="false" aria-controls="collapse5">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What about nature experiences?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Experience breathtaking landscapes, tea plantations, and pristine beaches that will leave you in awe!</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="people05 cid-ujt7TFQ7JZ" id="testimonials-6-ujt7TFQ7JZ">
+	
+
+	
+	
+	<div class="container">
+		<div class="row mb-5 justify-content-center">
+			<div class="col-12 mb-0 content-head">
+				<h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+					<strong>Cheers!</strong>
+				</h3>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="item features-without-image col-12 col-md-6 col-lg-4 active">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">Kerala's culture is a vibrant tapestry of traditions and modernity!</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/aleena.jpg" alt="" data-slide-to="0" data-bs-slide-to="0">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Aleena Benny</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">The food here is a culinary adventure that you can't miss!</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/devan.jpg" data-slide-to="1" data-bs-slide-to="1" alt="">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Deva Nair</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="item features-without-image col-12 col-md-6 col-lg-4">
+				<div class="item-wrapper">
+					<div class="card-box align-left">
+						<p class="card-text mbr-fonts-style display-7">Wildlife in Kerala is a breathtaking experience, truly unforgettable!</p>
+						<div class="img-wrapper mt-4 mb-3">
+							<img src="assets/images/sadiya.jpg" data-slide-to="2" data-bs-slide-to="2" alt="">
+						</div>
+						<h5 class="card-title mbr-fonts-style display-7">
+							<strong>Sadiya Sadiq</strong>
+						</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-bs-version="5.1" class="gallery4 cid-ujt7TFQuoY" id="gallery-12-ujt7TFQuoY">
+  
+  
+  <div class="container-fluid gallery-wrapper">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-container-1" style="transform: translate3d(-200px, 0px, 0px);">
+        <div class="grid-item">
+          <img src="assets/images/boat.jpg" alt="alternate text">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/boat2.jpg" alt="alternate text">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/beach 1.jpg" alt="alternate text">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/elephant.jpg" alt="alternate text">
+        </div>
+      </div>
+      <div class="grid-container-2" style="transform: translate3d(-70px, 0px, 0px);">
+        <div class="grid-item">
+          <img src="assets/images/photo-1682687219640-b3f11f4b7234.jpeg" alt="alternate text">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/photo-1682687981630-cefe9cd73072.jpeg" alt="alternate text">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/photo-1683009427037-c5afc2b8134d.jpeg" alt="alternate text">
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/photo-1683009427513-28e163402d16.jpeg" alt="alternate text">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery09 cid-ujt7TFRI9q" id="gallery-9-ujt7TFRI9q">
+  
+
+  
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12 col-lg-4 main-text">
+        <div class="">
+          <h5 class="mbr-section-title mbr-fonts-style mt-0 mb-4 display-2">
+            <strong>Nature's Paradise</strong>
+          </h5>
+          <h6 class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4 display-7">Explore the lush landscapes and diverse wildlife of Kerala, where every corner is a postcard waiting to happen.</h6>
+          
+        </div>
+      </div>
+
+      <div class="col-lg-8 side-features row">
+        <div class="item features-image col-12 col-md-6 col-lg-6 active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="assets/images/photo1.jpg" alt="alternate text" title="" data-slide-to="1" data-bs-slide-to="1">
+            </div>
+            
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-6 active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="assets/images/waterfall.jpg" alt="alternate text" title="" data-slide-to="2" data-bs-slide-to="2">
+            </div>
+            
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-6 active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="assets/images/photo2.jpg" alt="alternate text" title="" data-slide-to="3" data-bs-slide-to="3">
+            </div>
+            
+          </div>
+        </div>
+        <div class="item features-image col-12 col-md-6 col-lg-6 active">
+          <div class="item-wrapper">
+            <div class="item-img">
+              <img src="assets/images/hill 2.jpg" alt="alternate text" title="" data-slide-to="4" data-bs-slide-to="4">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="header18 cid-ujt7TFR46O mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=Oeeksx0LyOY" id="video-5-ujt7TFR46O">
+  
+
+  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+  <div class="container-fluid">
+    <div class="row">
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features03 cid-ujt7TFS5JF" id="news-1-ujt7TFS5JF">
+  
+  
+  <div class="container-fluid">
+    <div class="row justify-content-center mb-5">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head">
+          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <strong>Kerala's Vibrant Culture</strong>
+          </h4>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item features-image col-12 col-md-6 col-lg-3 active">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="assets/images/kerala 3.jpg" alt="alternate text" title="">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
+              <strong>Festivals That Light Up Kerala</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Experience the electrifying festivals that showcase Kerala's rich traditions and vibrant spirit. Join the celebration!</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="assets/images/food.jpg" alt="alternate text" title="" data-slide-to="1" data-bs-slide-to="1">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>Culinary Delights Await You</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Savor the mouthwatering dishes that define Kerala's culinary landscape. Your taste buds will thank you!</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="assets/images/wild 2.jpg" alt="alternate text" title="" data-slide-to="2" data-bs-slide-to="2">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>Wildlife Wonders of Kerala</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Explore the breathtaking wildlife sanctuaries that are home to exotic species. Nature's playground awaits!</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="assets/images/hill 3.jpg" alt="alternate text" title="" data-slide-to="2" data-bs-slide-to="2">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>Nature's Beauty Unleashed</strong>
+            </h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Discover the stunning landscapes and serene backwaters that make Kerala a paradise on Earth. Dive in!</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features023 cid-ujt7TFSUEl" id="metrics-1-ujt7TFSUEl">
+
+    <div class="container">
+        
+        <div class="row content-row justify-content-center">
+            <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
+                <div class="item-wrapper">
+                    <div class="title mb-2 mb-md-3">
+                        <span class="num mbr-fonts-style display-1">
+                            <strong>1,000+</strong></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style display-5">
+                        <strong>Festivals Celebrated</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
+                <div class="item-wrapper">
+                    <div class="title mb-2 mb-md-3">
+                        <span class="num mbr-fonts-style display-1">
+                            <strong>500+</strong></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style display-5">
+                        <strong>Delicious Dishes</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
+                <div class="item-wrapper">
+                    <div class="title mb-2 mb-md-3">
+                        <span class="num mbr-fonts-style display-1">
+                            <strong>200+</strong></span>
+                    </div>
+                    <h4 class="card-title mbr-fonts-style display-5">
+                        <strong>Wildlife Species</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="header09 startm5 cid-ujt7TFSJ1U" id="call-to-action-2-ujt7TFSJ1U">
+    
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="content-wrap col-12 col-md-6">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-2">
+                    <strong>Explore Kerala's Wonders Today!</strong>
+                </h1>
+                
+                <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Dive into the heart of Kerala's culture, food, and nature. Don't miss out!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="clients04 cid-ujt7TFT7lF" id="clients-1-ujt7TFT7lF">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Our Unique Specialities</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2 active">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/spe 1.jpg" alt="alternate text" title="" data-slide-to="1" data-bs-slide-to="1">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/spe 2.jpg" alt="alternate text" title="" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/spe 5.jpg" alt="alternate text" title="" data-slide-to="3" data-bs-slide-to="3">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/spe 4.jpg" alt="alternate text" title="" data-slide-to="4" data-bs-slide-to="4">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/church.jpg" alt="alternate text" title="" data-slide-to="5" data-bs-slide-to="5">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="assets/images/spe 6.jpg" alt="alternate text" title="" data-slide-to="6" data-bs-slide-to="6">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section data-bs-version="5.1" class="header09 startm5 cid-ujt7TFSJ1U" id="call-to-action-2-ujt7TFSJ1U">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="content-wrap col-12 col-md-6">
+              
+              <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Kerala, a picturesque state in India, is celebrated for its unique specialties. Coconuts are an integral part of Kerala's landscape and culture, influencing the cuisine, economy, and daily life. The state is a leading producer of coir, a natural fiber extracted from coconut husks, used in making ropes, mats, and other eco-friendly products. Kochi, a vibrant port city, blends historical charm with modernity, featuring colonial architecture, bustling markets, and the iconic Chinese fishing nets. Kerala is also home to the majestic Bengal tigers, protected in sanctuaries like the Periyar Tiger Reserve, highlighting the state's commitment to wildlife conservation.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="social05 cid-ujt7TFT5lN" id="follow-us-2-ujt7TFT5lN">
+    
+
+    
+
+    <div class="container">
+        <div class="row">
+            <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
+                <strong>Connect With Kerala!</strong>
+            </h3>
+            <div class="col-12">
+                <div class="social-row">
+                    <div class="soc-item">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-facebook"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                      <a href="https://www.twitter.com" target="_blank">
+                          <span class="mbr-iconfont socicon-instagram socicon"></span>
+                      </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <span class="mbr-iconfont socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="form5 cid-ujt7TFUgtC" id="contact-form-2-ujt7TFUgtC">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Get In Touch!</strong>
+                    </h3>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="testvalue">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! some problem!
+                        </div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-form-2-ujt7TFUgtC">
+                        </div>
+                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-2-ujt7TFUgtC">
+                        </div>
+                        <div class="col-12 form-group mb-3" data-for="textarea">
+                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-form-2-ujt7TFUgtC"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                            <button type="submit" class="btn btn-primary display-7">Send It!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="contacts03 cid-ujt7TFUHCA" id="contacts-11-ujt7TFUHCA">
+  
+
+  
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4">
+        <div class="col-12 col-md-12">
+          <h5 class="mbr-section-title mbr-fonts-style mt-0 mb-4 display-2">
+            <strong>Contact Us</strong>
+          </h5>
+          <p class="mbr-section-subtitle mbr-fonts-style mt-0 mb-4 display-7">
+            Phone: +91 12345 67890
+            <br>Email: info@kerala.com
+            <br>Address: Kerala, India
+            <br>Working Hours: Mon-Sun: 9 AM - 9 PM
+          </p> 
+
+          
+        </div>
+      </div>
+        <div class="col-lg-8 side-features">
+        <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817982.7271324415!2d73.49602153006168!3d10.533316397034037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0812ffd49cf55b%3A0x64bd90fbed387c99!2sKerala%2C%20India!5e1!3m2!1sen!2sde!4v1721858867343!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen=""></iframe></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="footer2 cid-ujt7TFU4OZ" once="footers" id="footer-5-ujt7TFU4OZ">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 center mt-2 mb-3">
+                <p class="mbr-fonts-style copyright mb-0 display-7">© 2024 Kerala Adventures. All rights reserved.</p>
+            </div>
+            <div class="col-12 col-lg-6 center">
+                <div class="row-links mt-2 mb-3">
+                    <ul class="row-links-soc">
+                        
+                        
+                        
+                        
+                    <li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Privacy</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Terms</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Support</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Contact</a>
+                        </li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://r.mobirisesite.com/583243/assets/web/assets/jquery/jquery.min.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/parallax/jarallax.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/smoothscroll/smooth-scroll.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/ytplayer/index.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/dropdown/js/navbar-dropdown.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/vimeoplayer/player.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/mbr-switch-arrow/mbr-switch-arrow.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/scrollgallery/scroll-gallery.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/theme/js/script.js?rnd=1721844628569"></script>
+<script src="https://r.mobirisesite.com/583243/assets/formoid/formoid.min.js?rnd=1721844628569"></script>
+  
+  
+  
+</body>
+</html>
